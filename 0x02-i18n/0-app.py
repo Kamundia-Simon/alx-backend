@@ -7,7 +7,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 @app.route('/')
-def index():
+def index() -> str:
     """
     Create a single / route and an index.html
     """
